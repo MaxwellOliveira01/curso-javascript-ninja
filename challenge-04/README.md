@@ -13,8 +13,7 @@ isTruthy = function(arg) {
 }
 
 // Invoque a função criada acima, passando todos os tipos de valores `falsy`.
-
-(isTruthy(null); //false
+isTruthy(null); //false
 isTruthy(undefined); //false
 isTruthy(NaN); //false
 isTruthy(0); //false
